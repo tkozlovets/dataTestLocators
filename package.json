@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "npm run lint",
-    "start": "node ./scripts/start.js",
+    "start": "node scripts/server.js",
     "dev": "npm start",
     "test": "npm start & cypress run",
     "pretest": "npm run lint",
